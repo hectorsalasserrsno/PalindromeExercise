@@ -10,6 +10,8 @@ namespace PalindromeExerciseTests
         [InlineData("racecar", true)]
         [InlineData("salas", true)]
         [InlineData("hannah", true)]
+        [InlineData("axel", false)]
+        [InlineData("ariel", false)]
         public void Test1(string word, bool expected )
         {
             //Arrange- prepare code
